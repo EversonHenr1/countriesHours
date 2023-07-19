@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+body{
+    background-image: url(https://preview.redd.it/dz76ii4qex651.png?auto=webp&s=6681e8a9e26f90713fc42da92c3d1477983cdbfa);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-countries{
+    background-color: hotpink;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    border: 1px solid black;
+    padding: 50px;
+    overflow: hidden;
+}
+label{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 5px white;
+}
+.input-container{
+    gap: 1.3em;
+    flex-direction: column !important;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+select{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 0px !important;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: 1px 1px 5px white;
+    font-size: 1.3em;
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    outline: none; 
+    opacity: 0.8;  
+}
+select:hover{
+    opacity: 1;
+}
+select:focus{
+    outline: 1px solid black;
+    outline-offset: 2px;
+}
+
+form{
+    
+    gap:0px 1.5em
+}
+input[type="submit"]{
+    margin: 25px 0px;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: 1px 1px 5px white;
+    font-size: 1.3em;
+    padding: 10px 35px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+input[type="submit"]:focus{
+    border: 2px solid white;
+}
+input[type="submit"]:hover{
+    opacity: 1;
+    box-shadow: 1px 1px 7px black;
+    scale: 0.96;
+}
+h2{
+    text-shadow: 1px 1px 5px white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 20px 0px;
+}
+h1{
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+}
+a{
+    font-size: 1.4em;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    text-decoration: underline black;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+}
+
+a:hover{
+    text-decoration: underline white;
+}
+#conatiner-hours{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    backdrop-filter: blur(7px);
+    border: 1px solid black;
+}
+
+#hours{
+    font-size: 8em;
+    text-shadow: 1px 1px 7px white;
+}
